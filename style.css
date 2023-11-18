@@ -5,44 +5,38 @@
 font-family: 'Sarala', sans-serif; */
 
 
-    
-
-    
-
-
-
-*{
+* {
     box-sizing: border-box;
     font-family: 'Sarala', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: linear-gradient(68.15deg, #F2E8DF 38.27%, #73666B 61.73%);
 
 }
 
-.jessica-faltz{
+.jessica-faltz {
     font-family: 'Cinzel', serif;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 32px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 32px;
 }
 
-.link-logo  {
+.link-logo {
     padding: 0px;
 }
 
 
 
-header{
+header {
     background-color: #8c6c6593;
     display: flex;
     align-items: center;
@@ -50,7 +44,7 @@ header{
     padding: 12px 80px;
 }
 
-header a{
+header a {
     color: black;
     font-weight: 600;
     font-size: 20px;
@@ -58,7 +52,7 @@ header a{
     text-decoration: none;
 }
 
-header a:hover{
+header a:hover {
     background-color: rgba(240, 255, 255, 0.438);
     border-radius: 10px;
     margin: 0px;
@@ -66,7 +60,7 @@ header a:hover{
 
 }
 
-#inicio{
+#inicio {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -75,12 +69,12 @@ header a:hover{
     position: relative;
 }
 
-.paragrafo{
+.paragrafo {
     line-height: 150%;
     margin-bottom: 32px;
 }
 
-.botao{
+.botao {
     background-color: rgb(59, 41, 39);
     padding: 16px 32px;
     color: white;
@@ -88,23 +82,23 @@ header a:hover{
     border-radius: 8px;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: rgba(240, 255, 255, 0.438);
 }
 
-.botao-transparente:hover{
+.botao-transparente:hover {
     background-color: rgba(240, 255, 255, 0.438);
     border-radius: 10px;
 }
 
-.botao-transparente{
+.botao-transparente {
     background-color: transparent;
     color: black;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
 
-#servicos{
+#servicos {
     display: flex;
     justify-content: flex-start;
     margin-top: 60px;
@@ -114,12 +108,12 @@ header a:hover{
     column-count: 2;
 }
 
-#servicos img{
+#servicos img {
     border-radius: 15px;
-   
+
 }
 
-.absolute{
+.absolute {
     position: absolute;
     bottom: 0;
     margin-bottom: -90px;
@@ -128,39 +122,35 @@ header a:hover{
     z-index: -10;
 }
 
-#servicos li{
+#servicos li {
 
     margin-bottom: 10px;
     margin-left: 32px;
-    
-    
-    
-    
 
 }
 
-#galeria{
+#galeria {
     padding: 64px 80px;
     text-align: center;
 
 }
 
-#galeria img{
+#galeria img {
     margin: 22px;
 }
 
-#galeria .paragrafo{
+#galeria .paragrafo {
     max-width: 950px;
     margin: auto;
 
 }
 
-#historia{
+#historia {
     padding: 64px 80px;
     text-align: center;
 }
 
-#duvidas{
+#duvidas {
     display: flex;
     align-items: center;
     gap: 64px;
@@ -171,20 +161,20 @@ header a:hover{
     position: relative;
 }
 
-.duvida h3{
+.duvida h3 {
     border: 2px solid black;
     border-radius: 8px;
     cursor: pointer;
     padding: 20px;
 }
 
-.duvida img{
+.duvida img {
     position: absolute;
     top: 32px;
     right: 24px;
 }
 
-.duvida .paragrafo{
+.duvida .paragrafo {
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -197,14 +187,14 @@ header a:hover{
     transition: .5s;
 }
 
-.duvida.ativa .paragrafo{
+.duvida.ativa .paragrafo {
     height: fit-content;
     opacity: 1;
     padding: 24px;
 }
 
-footer{
-    background-color: rgba(255, 152,108, 0.25);
+footer {
+    background-color: rgba(255, 152, 108, 0.25);
     display: flex;
     justify-content: space-between;
     gap: 80px;
@@ -220,11 +210,11 @@ footer .titulo {
 }
 
 footer nav a {
-    color:  rgb(82, 5, 155);
+    color: rgb(82, 5, 155);
     display: block;
     margin-bottom: 5px;
     text-decoration: none;
-    
+
 }
 
 footer p a {
@@ -236,13 +226,163 @@ footer p {
     max-width: 350px;
 }
 
-#copyright{
+#copyright {
     background-color: #263138;
     color: wheat;
     padding: 20px;
     text-align: center;
 }
 
-#copyright a{
+#copyright a {
     color: #ff9a6c;
+}
+
+@media (max-width: 768px) {
+    
+    
+    .img-logo-grande{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+
+    header a {
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 2px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    header a:hover {
+        background-color: rgba(240, 255, 255, 0.438);
+        border-radius: 10px;
+        margin: 0px;
+        padding: 5px;
+    
+    }
+
+    .jessica-faltz {
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .paragrafo{
+        font-size: 14px;
+        text-align: center;
+        padding: 15px;
+    }
+
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 28px;
+        display: block;
+       
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    .botao {
+        font-size: 14px;
+        background-color: #3b2927;
+        padding: 8px 12px;
+        margin-bottom: 15px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 8px;
+        display: block;
+
+    }
+    
+    .botao-transparente {
+        font-size: 14px;
+        background-color: #3b29278e;
+        color: white;
+        padding: 8px 12px;
+        margin-bottom: 15px;
+        text-underline-offset: 4px;
+        display: block;
+        text-align: center;
+    }
+    
+    .botao-transparente:hover {
+        background-color: rgba(240, 255, 255, 0.438);
+        border-radius: 10px;
+    }
+
+    .link-logo:hover {
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .img-servico,
+    .img-seta{
+        display: none;
+    }
+
+    ul {
+        font-size: 12px;
+        columns: 2;
+        box-shadow: inset 2px 2px 1px 1px rgba(0, 0, 0, 0.253);
+   
+    }
+
+    .img-duvida{
+        display: none;
+    }
+
+    footer {
+        background-color: rgba(255, 152, 108, 0.25);
+        text-align: center;
+        display: block;
+        justify-content: space-between;
+        gap: 5px;
+        padding: 5px 10px;
+    
+    }
+
+    .logo-footer{
+        text-align: center;
+        display: inline-block
+    }
+
+    .paragrafo-footer{
+        text-align: center;
+        display: flex;
+       margin-left: 50px;
+       margin-bottom: 35px;
+        padding: 0px;
+
+    }
+
+    footer nav a {
+        
+        margin-bottom: 5px;
+        
+    
+    }
+
+    footer p{
+        margin-top: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .titulo{
+        margin-top: 30px;
+    }
+
+    
+
 }

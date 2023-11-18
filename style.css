@@ -239,6 +239,7 @@ footer p {
 
 @media (max-width: 768px) {
     
+   
     
     .img-logo-grande{
         display: none;
@@ -253,16 +254,18 @@ footer p {
         font-size: 14px;
         padding: 2px;
         text-decoration: none;
-        text-align: center;
+        text-align: left;
+        display: block;
     }
 
     header a:hover {
         background-color: rgba(240, 255, 255, 0.438);
-        border-radius: 10px;
+        border-radius: 5px;
         margin: 0px;
-        padding: 5px;
+        padding: 3px;
     
     }
+    
 
     .jessica-faltz {
         font-family: 'Cinzel', serif;
@@ -274,7 +277,10 @@ footer p {
     .paragrafo{
         font-size: 14px;
         text-align: center;
-        padding: 15px;
+        padding: 5px;
+        margin: 20px;
+      
+       
     }
 
 
@@ -383,6 +389,18 @@ footer p {
         margin-top: 30px;
     }
 
+    #servicos,
+    #galeria,
+    #historia,
+    #duvidas,
+    footer{
+        padding: 20px 0px;
+        margin: 110px 10px;
+    }
     
+    #galeria img,
+    .img-jessica-historia {
+        border-radius: 15px;
+    }
 
 }
